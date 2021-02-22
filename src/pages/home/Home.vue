@@ -24,7 +24,7 @@ export default {};
   height: 50vh;
   /* background-color: rgb(15, 15, 15); */
   /* background-image: url(../../assets/Hamburg_Hafen_1.jpeg); */
-  background-image: url("../../assets/Hamburg_Hafen_1.jpeg");
+  background-image: url("../../assets/Hamburg_Hafen_1_klein.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

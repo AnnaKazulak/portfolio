@@ -37,11 +37,17 @@ export default {};
   padding-top: 5vh;
   height: 40vh;
   background-color: #f8f8f8;
-  background-image: url("../../assets/Hamburg_Hafen_1.jpeg");
+  background-image: url("../../assets/Hamburg_Hafen_1_klein.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  #kontakt {
+    background-position: center;
+  }
 }
 
 /* .container {

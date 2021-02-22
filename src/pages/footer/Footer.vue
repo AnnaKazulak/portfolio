@@ -14,9 +14,10 @@ export default {};
 div {
   background-color: rgb(36, 36, 36);
   display: flex;
-  height: 7vh;
+  /* height: 7vh; */
   /* align-content: center; */
   justify-content: center;
+  height: 50vh;
 }
 
 .copyright {

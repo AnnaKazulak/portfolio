@@ -64,6 +64,7 @@ export default {
   width: calc(17vw + 65px);
   transform: translateX(17vw);
   transition: 1s;
+  z-index: 5;
 }
 
 .sidebar {
@@ -86,8 +87,25 @@ export default {
     transform: translateX(25vw);
   }
 }
+@media screen and (max-width: 650px) {
+  .sidebar {
+    width: 65vw;
+  }
 
-@media screen and (max-width: 1000px) {
+  #cont {
+    width: calc(65vw + 65px);
+    transform: translateX(65vw);
+  }
+  .menu.btn {
+    margin-right: 5px;
+  }
+
+  .photo-small img {
+    display: flex;
+    width: 200px;
+  }
+}
+@media (min-width: 650px) and (max-width: 1000px) {
   .sidebar {
     width: 55vw;
   }
@@ -96,7 +114,11 @@ export default {
     width: calc(55vw + 65px);
     transform: translateX(55vw);
   }
+  .photo-small img {
+    width: 30vw;
+  }
 }
+
 .menu-btn {
   display: inline-block;
   position: absolute;
@@ -125,7 +147,7 @@ export default {
 
 .photo-small img {
   display: flex;
-  width: 7vw;
+  width: 13vw;
   border-radius: 50%;
   /* align-items: center; */
   justify-content: center;
