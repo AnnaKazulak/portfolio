@@ -9,7 +9,7 @@
       <img src="../../assets/skills/figma.svg" alt="" />
       <img src="../../assets/skills/css3.svg" alt="" />
       <img src="../../assets/skills/xd.svg" alt="" />
-      <img src="../../assets/skills/mysql.svg" alt="" />
+      <img class="sql" src="../../assets/skills/sql.svg" alt="" />
     </div>
   </section>
 </template>
@@ -37,6 +37,9 @@ export default {};
   transform: scale(0.9);
   transition: 300ms;
   margin-top: 20px;
+}
+.icons img.sql {
+  margin-left: 15px;
 }
 .icons img:hover {
   filter: none;

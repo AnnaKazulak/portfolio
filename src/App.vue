@@ -45,6 +45,29 @@ export default {
   /* text-align: center; */
   margin: 0px;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1762a7;
+  /* background: linear-gradient(180deg, #bc3a80, #1762a7); */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bc3a80;
+  cursor: pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
